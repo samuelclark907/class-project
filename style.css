@@ -7,27 +7,68 @@ header > nav> ul> li {
 
 
 body {
-    background-color: aquamarine;
+    
+    background-color: #19B343;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: crimson;
+    color: #B31215;
 }
 
-h1 {text-align: center;
+h1 {
+    text-align: center;
     border-inline-style: auto;
+    color:#B31215;
     
 }
 
 
 
-h3 {text-align: center;
-    color: rgb(255, 60, 0);
+h3 {
+    text-align: center;
+    color: #B31215;
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+   
     border-style: double;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    
+         
   }
 
+  div {
+      
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer>nav>ul>li {
+    display: inline-block;
+    width: 150px;
+    float: center;
+  }
+
+  #info {
+    column-count: 1;
+  }
+
+  #quiz {
+    column-count: 1;
+  }
+
+  #safe {
+    column-count: 1;
+  }
+
+ 
 

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
-    
+
 
 </head>
+
 <body>
     <header>
 
@@ -21,54 +23,62 @@
                 <li><a href="url">Take Quiz</a></li>
             </ul>
         </nav>
-    
+
+        <script src="js/app.js"></script>
+
     </header>
-    
+
     <main>
 
-    <script src="js/add-greeting.js"></script>
-    <script src="js/ask-name.js"></script>
-    <script src="js/ask-washhands.js"></script>
-        <section>
+        <script>askName();</script>
+        <script>offerGreeting();</script>
+        <script>askWashhands();</script>
+
+        <div class="column" id="info">
             <h3>Information</h3>
-            <img src="https://www.health.harvard.edu/media/content/images/GettyImages-1200706447-crop.jpg" alt="visual CV">
+            <img src="https://www.health.harvard.edu/media/content/images/GettyImages-1200706447-crop.jpg"
+                alt="visual CV">
             <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
-                Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  
-                Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
-        </section>
-        <section>
+                Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness
+                and recover without requiring special treatment.
+                Older people, and those with underlying medical problems like cardiovascular disease, diabetes,
+                chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
+        </div>
+        <div class="column" id="quiz">
             <h3>Take quiz to see if you have CV.</h3>
-            <img src="https://bloximages.newyork1.vip.townnews.com/kctv5.com/content/tncms/assets/v3/editorial/2/65/26579c03-243c-59ca-92f1-08eb21a53a21/5e8b4eb3b2c3f.image.png"alt="Image" height="300" width="400" alt="cv quiz">
-            <p>Take the quiz that is 100% acurate.</p>
-        </section>
-        <section>
+            <img src="https://bloximages.newyork1.vip.townnews.com/kctv5.com/content/tncms/assets/v3/editorial/2/65/26579c03-243c-59ca-92f1-08eb21a53a21/5e8b4eb3b2c3f.image.png"
+                alt="Image" height="300" width="400" alt="cv quiz">
+
+        </div>
+        <div class="column" id="safe">
             <h3>Safety Guidelines</h3>
             <img src="https://www.cdc.gov/handwashing/images/GettyImages-514363103-medium.jpg" alt="washing hands">
-            <p>To prevent infection and to slow transmission of COVID-19, do the following:<br>
-
-                - Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.<br>
+            <p>- Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.<br>
                 - Maintain at least 1 metre distance between you and people coughing or sneezing.<br>
                 - Avoid touching your face.<br>
                 - Cover your mouth and nose when coughing or sneezing.<br>
                 - Stay home if you feel unwell.<br>
                 - Refrain from smoking and other activities that weaken the lungs.<br>
-                - Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.</p>
-        </section>
+                - Practice physical distancing by avoiding unnecessary travel and staying away from large groups of
+                people.</p>
+
+        </div>
+
     </main>
-    
+
     <footer>
         <nav>
             <ul>
                 <li>careers</li>
                 <li>contact</li>
-                <li></li>
+                <li>copyright</li>
                 <li></li>
                 <li></li>
             </ul>
         </nav>
-        <p>copyright</p>
-    </footer>
-        
-</body>
-</html>
 
+    </footer>
+
+</body>
+
+</html>
